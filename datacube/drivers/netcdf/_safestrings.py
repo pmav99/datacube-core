@@ -1,3 +1,11 @@
+#
+# Copyright (c) 2015-2020 ODC Contributors
+#
+# This file is part of the Open Data Cube
+# See https://opendatacube.org for more information
+#
+# SPDX-License-Identifier: Apache-2.0
+#
 """
 Provides `SafeStringsDataset`, a replacement netCDF4.Dataset class which works
 around a bug in NetCDF4 which causes attribute strings written to files to
